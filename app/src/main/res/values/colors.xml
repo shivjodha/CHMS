@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e58924</color>
+    <color name="colorPrimaryDark">#d67c19</color>
+    <color name="colorAccent">#e8953b</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="buttoncolor">#e58924</color>
+
+
+
+
+
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FFA500</color>
+    <color name="green">#008000</color>
+    <color name="trans">#00000000</color>
+    <color name="textColorPrimary1">#000000</color>
+    <color name="spinn">#EDEEEE</color>
+    <color name="main">#007FB1</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="black">#000000</color>
+    <color name="validate">#03AACE</color>
+
+    <color name="tab">#1368a9</color>
+    <color name="textColorPrimary2">#828282</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+    <!--<color name="bgBottomNavigation">#fe485a</color>-->
+    <!--<color name="buttoncolor">#FF7043</color>-->
+
+    <color name="bgBottomNavigation">#7400bc</color>
+
+
+
+    <color name="grey">#2B2C2C</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="status">#035FA8</color>
+
+    <color name="transred">#30FF0000</color>
+    <color name="transpending">#30FFB64D</color>
+
+
+
+
+
+
+    <color name="aircelred">#D9271B</color>
+    <color name="airccelblue">#173983</color>
+    Aircel = red = #D9271B , Blue = #173983
+    <color name="airtelred">#E20010</color>
+    Airtel = red = #E20010
+    <color name="bsnlred">#ED1C24</color>
+    <color name="bsnlblue">#0072BC</color>
+    BSNL = red =#ED1C24 ,Blue = #0072BC
+    <color name="docomobrown">#290008</color>
+    <color name="docomoyellow">#F8A522</color>
+
+    DOCOMO = brown  =#290008 , yellow = #F8A522 ,ORANGE = #FO6C21
+    <color name="ideayellow">#FFF200</color>
+    <color name="ideablue">#0072BC</color>
+    IDEA = YELLOW= #FFF200 ,Blue =#0072BC
+    <color name="tataindicomblue">#04AEEC</color>
+    tata indicom = blue = #04AEEC
+    <color name="jiored">#EF3E44</color>
+    JIO = red = #EF3E44
+    <color name="mtnlgreen">#005F27</color>
+    <color name="mtnlred">#C10500</color>
+    mtnl = green = #005F27 , RED=#C10500
+    <color name="mtsred">#FF0000</color>
+    MTS = RED =#FF0000
+    <color name="reliencered">#E51F26</color>
+    <color name="relienceblue">#0071BC</color>
+    RELIANCE = RED = #E51F26 , BLUE = #0071BC
+    <color name="telenorblue">#73D2EF</color>
+    TELENOR = BLUE = #73D2EF
+    <color name="videocongreen">#63B539</color>
+    VIDEOCON = GREEN =#63B539
+    <color name="vodafone">#E30520</color>
+    VODAFONE = #E30520
+
+    =========================UTILITY========
+    <color name="cpdclred">#E90007</color>
+    <color name="cpdclblue">#15418D</color>
+    CPDCL = RED = #E90007 , blue = #15418D
+    <color name="madhypashimkhestra">#A95C0E</color>
+    MADHYA PRADESH PASCHIM KSHETRA = #A95C0E
+    <color name="mahavitan">#DD281F</color>
+    MAHAVITRAN = #DD281F
+
+    ========================================
+    <color name="relincedthred">#F40000</color>
+    <color name="reliancedthblue">#007FFE</color>
+    RELIANCE BIG TV = RED #F40000 , BLUE = #007FFE
+    <color name="sundirectyello">#FEF200</color>
+    <color name="sundirectred">#ED1B24</color>
+    SUN DIRECT = YELLOW=#FEF200 ,RED=#ED1B24
+    <color name="tatapower">#1261A9</color>
+    TATAPOWER = #1261A9
+    <color name="tatasky">#3E6CAD</color>
+    TATA SKY = #3E6CAD , RED = 3d02f1b
+    <color name="videocon">#7B4B9D</color>
+    videocon = purple = #7B4B9D
+
+
+    <color name="bgBottomNavigation1">#81D4FA</color>
+
+    <color name="bgBottomNavigation2">#B71C1C</color>
+
+
+
+    <color name="black1">#3C3C3C</color>
+
+
+
+
+
+
+
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorSecondary">#A0000000</color>
+    <color name="windowBackground">#F1F3F6</color>
+    <color name="actionbar_title_text">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="background">#00457b </color>
+    <color name="border">#005699</color>
+
+
+
+
+</resources>

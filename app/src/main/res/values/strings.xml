@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">CHMS</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone">Phone</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="terms_and_conditions">I agree to the terms and conditions</string>
+    <string name="ssoid">SSOID</string>
+    <string name="max_person">Max Person</string>
+    <string name="guest_house">Guest House </string>
+    <string name="select_guest_house">---Sulect Guest House---</string>
+    <string name="purpose_of_confrence">Purpose Of Conference</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="time">Time</string>
+    <string name="remark">Remark</string>
+    <string name="department_name">Department Name</string>
+
+    <string name="invalid_name">Please enter a valid Name</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_confirm_email">Email does not match</string>
+    <string name="invalid_password">Please enter a valid password</string>
+    <string name="invalid_confirm_password">Password does not match</string>
+    <string name="invalid_phone">Please enter a valid Phone</string>
+    <string name="invalid_age">Age must be between 12 and 60.</string>
+
+
+    <string name="booking">Booking</string>
+    <string name="booking_request">Booking </string>
+    <string name="booking_history">Booking </string>
+    <string name="confrence_service">Conference Service</string>
+    <string name="confrence">Conference</string>
+    <string name="confrence_service_status">Conference Status</string>
+    <string name="pantry">Pantry</string>
+    <string name="pantry_service">Pantry Service</string>
+    <string name="pantry_status">Pantry Status</string>
+    <string name="guest_house_list">Guest House List</string>
+    <string name="guesthouse">Guest House</string>
+
+
+    <string name="mobileno">Mobile Number</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="postaladd">Postal Address</string>
+    <string name="postalcode">Postal Code</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+
+    <string name="guest_name">Guest Name</string>
+    <string name="requested_id">Req. ID</string>
+    <string name="guest_type">Guest Type</string>
+    <string name="purpose">Purpose</string>
+    <string name="status">Status</string>
+    <string name="delete">Delete</string>
+    <string name="print">Print</string>
+    <string name="food">Food</string>
+
+    <string name="circut_house">Circuit House</string>
+    <string name="refnumber">Ref.N0./SSOID</string>
+    <string name="servicetype">Service Type</string>
+
+
+    <string name="select_guest_type">---Guest Type---</string>
+    <string name="existingref_num">---Existing Reference Number---</string>
+
+    <string name="date">Date</string>
+    <string name="tea">Tea</string>
+    <string name="cofee">Coffee</string>
+    <string name="breakfast">Break-fast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinnner">Dinner</string>
+    <string name="guest">Guest Name</string>
+    <string name="relation">Relation With Guest</string>
+    <string name="id_proof">ID Proof Type Name</string>
+    <string name="id_number">ID Number</string>
+    <string name="select_bookingfor">---Booking For---</string>
+    <string name="select_circuit_house">---Circuit House Name---</string>
+    <string name="select_guest_cat">---Guest Category---</string>
+    <string name="deptname">Department Name</string>
+    <string name="officename">OfficeName</string>
+    <string name="officeadd">Office Address</string>
+    <string name="postdesi">Post/ Designation</string>
+    <string name="paymatrix">Pay Matrix </string>
+    <string name="dist">District</string>
+    <string name="doc_type">Type Of Document</string>
+
+    <string name="arrival">Arrival Date</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="dept_date">Departure Date</string>
+    <string name="dept_time">Departure Time</string>
+    <string name="noofroom">Number Of Rooms</string>
+    <string name="purposeoftravel">Purpose Of Travel</string>
+
+    <string name="select_pay_matrix">Select Pay Matrix</string>
+    <string name="select_state">Select State</string>
+    <string name="select_district">Select district</string>
+    <string name="select_type_of_document">Select type Of Document</string>
+    <string name="purpose_of_travel">Purpose Of Travel</string>
+    <string name="select_relaion">Select Relation With Guest</string>
+    <string name="select_id_type">Select Id Type</string>
+    <string name="select_gender"> Select Gender</string>
+</resources>

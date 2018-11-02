@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="4dp">
+        <EditText
+            android:id="@+id/ssoid_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/date"
+            android:focusable="false"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/tea_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/tea"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/cofee_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/cofee"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/breafast_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/breakfast"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/lunch_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/lunch"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/dinner_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/dinnner"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btcreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttoncolor"
+            android:textColor="@color/mdtp_white"
+            android:text="Add"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:foregroundGravity="bottom"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="List | Service Request Item"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/buttoncolor"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

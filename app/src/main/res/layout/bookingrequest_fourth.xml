@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_medium"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/arrival_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/arrival"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/atime_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/arrival_time"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/deptdate_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/dept_date"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/depttime_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/dept_time"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/noroom_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/noofroom"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+<!--        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/purposetravel_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/purposeoftravel"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/sp_purposeoftravel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_type_of_document"
+            android:textColorHint="#05ab9a"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_medium"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@+id/btnext"
+       >
+    <Button
+        android:id="@+id/btsubmitt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttoncolor"
+        android:textColor="@color/mdtp_white"
+        android:text="Submit"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:foregroundGravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        />
+
+    <Button
+        android:id="@+id/btreset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttoncolor"
+        android:textColor="@color/mdtp_white"
+        android:text="Reset"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:foregroundGravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttoncolor"
+        android:textColor="@color/mdtp_white"
+        android:text="Additional Guest Details"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:foregroundGravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

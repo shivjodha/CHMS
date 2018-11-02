@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_medium"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/deptname_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/department_name"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/office_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/officename"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/post_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/postdesi"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/officeaddedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/officeadd"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+   <!--     <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/paymatrix_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/paymatrix"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/sppaymatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_pay_matrix"
+            android:textColorHint="#05ab9a"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal" />
+
+
+       <!-- <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/state_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/state"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/sp_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_state"
+            android:textColorHint="#05ab9a"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal" />
+
+
+    <!--    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/dist_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/dist"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/sp_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_district"
+            android:textColorHint="#05ab9a"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal" />
+
+
+      <!--  <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText
+                android:id="@+id/typedoc_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:hint="@string/doc_type"
+                android:focusable="false"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>-->
+
+        <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+            android:id="@+id/sp_type_of_document"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_type_of_document"
+            android:textColorHint="#05ab9a"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttoncolor"
+        android:textColor="@color/mdtp_white"
+        android:text="Next"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:foregroundGravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mobile_rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_medium"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+        <EditText
+            android:id="@+id/etSsoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/ssoid"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/name"
+            android:focusable="false"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etName"
+        android:ems="5"
+        android:hint="@string/email"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etConfirmPassword"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:clickable="false"
+        android:focusable="false"
+        android:inputType="phone"/>
+
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spGuesthouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_guest_house"
+        android:textColorHint="#05ab9a"
+        app:met_floatingLabel="normal" />
+
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spPurpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/purpose_of_confrence"
+        android:textColorHint="#05ab9a"
+        app:met_floatingLabel="normal" />
+
+
+
+
+
+</LinearLayout>
+
+        <Button
+            android:id="@+id/btnext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttoncolor"
+            android:textColor="@color/mdtp_white"
+            android:text="Next"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:foregroundGravity="bottom"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

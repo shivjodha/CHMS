@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_medium"
+        android:orientation="vertical"
+       >
+
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spbookingfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_bookingfor"
+        android:textColorHint="#05ab9a"
+        android:layout_marginTop="10dp"
+        app:met_floatingLabel="normal" />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp">
+        <EditText
+            android:id="@+id/ssoid_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:hint="@string/name"
+            android:focusable="false"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/circuithouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_circuit_house"
+        android:textColorHint="#05ab9a"
+        android:layout_marginTop="10dp"
+        app:met_floatingLabel="normal" />
+
+
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/guestcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_guest_cat"
+        android:textColorHint="#05ab9a"
+        android:layout_marginTop="10dp"
+        app:met_floatingLabel="normal" />
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spguesttype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_guest_type"
+        android:textColorHint="#05ab9a"
+        android:layout_marginTop="10dp"
+        app:met_floatingLabel="normal" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttoncolor"
+        android:textColor="@color/mdtp_white"
+        android:text="Next"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:foregroundGravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Guest Name"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/tvFullName"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remark"
+                    android:textSize="@dimen/songs_count" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:weightSum="2">
+
+
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Relation With Guest"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/tvDepartureDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remark"
+                    android:textSize="@dimen/songs_count" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:weightSum="10">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:text="ID Proof Type Name"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/tvRequestId"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="remark"
+                    android:textSize="@dimen/songs_count" />
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="6">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="ID Number"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/album_title"
+                android:textSize="@dimen/album_title" />
+
+            <TextView
+                android:id="@+id/tvArrivalDate"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="remark"
+                android:textSize="@dimen/songs_count" />
+
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:weightSum="6">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.2"
+                    android:text="Gender"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/tvGuestType"
+                    android:layout_width="0dp"
+                    android:layout_weight="4.8"
+                    android:layout_height="wrap_content"
+                    android:text="remark"
+                    android:textSize="@dimen/songs_count" />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
