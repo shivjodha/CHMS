@@ -36,6 +36,11 @@ public interface RetrofitimplService {
     Call<BindDropdownList> getDropDown();
 
 
+    @GET("users/getGuestType")
+    Call<BindDropdownList> getGuestHistory();
+
+
+
     @GET("bins/1bsqcn/")
     Call<NoticeList> getNoticeData();
 

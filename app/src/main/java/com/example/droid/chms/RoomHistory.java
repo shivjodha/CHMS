@@ -15,8 +15,9 @@ import java.util.ArrayList;
 
 import Adapter.RoomHistoryAdapter;
 import Adapter.RoomHistoryModel;
+import my_interface.BookingInterface;
 
-public class RoomHistory extends AppCompatActivity {
+public class RoomHistory extends AppCompatActivity implements BookingInterface {
 
     private RecyclerView recyclerView;
     private ArrayList<RoomHistoryModel> albumList;
@@ -46,6 +47,9 @@ public class RoomHistory extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         prepareAlbums();
     }
+
+
+
 
 
     private void prepareAlbums() {
@@ -82,6 +86,17 @@ public class RoomHistory extends AppCompatActivity {
         albumList.add(a);
 
         adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onDropdownSuccess(String aLoginResponse) {
+
+    }
+
+    @Override
+    public void onGuesthistory(String aGuesthistory) {
+
+
     }
 
 

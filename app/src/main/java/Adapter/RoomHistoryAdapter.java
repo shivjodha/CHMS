@@ -60,8 +60,6 @@ public class RoomHistoryAdapter extends RecyclerView.Adapter<RoomHistoryAdapter.
 
         // loading album cover using Glide library
 
-
-
     }
 
     /**

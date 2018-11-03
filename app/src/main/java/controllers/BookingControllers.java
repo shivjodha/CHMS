@@ -49,4 +49,35 @@ public class BookingControllers {
             }
         });
     }
+
+
+
+    public void getguesthistory(String username, String password) {
+
+        /** Create handle for the RetrofitInstance interface*/
+        RetrofitimplService service = RetrofitInstance.getRetrofitInstance().create(RetrofitimplService.class);
+
+        /** Call the method with parameter in the interface to get the notice data*/
+        Call<BindDropdownList> call = service.getGuestHistory();
+
+        /**Log the URL called*/
+        Log.wtf("URL Called", call.request().url() + "");
+
+        call.enqueue(new Callback<BindDropdownList>() {
+            @Override
+            public void onResponse(Call<BindDropdownList> call, Response<BindDropdownList> response) {
+                // generateNoticeList(response.body().getNoticeArrayList());
+
+                // String values = response.body().getNoticeArrayList().toString();
+                mBookingView.onGuesthistory("values");
+
+            }
+
+            @Override
+            public void onFailure(Call<BindDropdownList> call, Throwable t) {
+                //Toast.makeText(this, "Something went wrong...Error message: " + t.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
 }

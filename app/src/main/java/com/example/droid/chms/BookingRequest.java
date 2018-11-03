@@ -143,6 +143,11 @@ public class BookingRequest extends AppCompatActivity implements BookingInterfac
 
     }
 
+    @Override
+    public void onGuesthistory(String aGuesthistory) {
+
+    }
+
     @OnClick (R.id.btnext)
     public void next(){
         if(!GuestHouseID.equals("")){

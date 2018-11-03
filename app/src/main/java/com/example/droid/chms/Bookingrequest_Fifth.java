@@ -73,6 +73,7 @@ public class Bookingrequest_Fifth extends AppCompatActivity {
         RoomHistoryModel a = new RoomHistoryModel("True", 13);
         ArrayList<RoomHistoryModel> albumList = new ArrayList<RoomHistoryModel>();
         albumList.add(a);
+        String value =albumList.toString();
         Hawk.put("aditionalguest", albumList);
         Intent intent = new Intent(Bookingrequest_Fifth.this, Bokking_Guestdetails.class);
         startActivity(intent);
